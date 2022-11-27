@@ -1,0 +1,67 @@
+body {
+    background-color: #303030;
+}
+
+
+.form {
+    max-width: 65rem;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 3rem;
+    margin: 0 auto;
+    transform: translateY(100px);
+}
+
+
+.form .control {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.form .control label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.form .control input {
+    padding: 20px;
+}
+
+.form .actions button {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rebeccapurple;
+    border: navajowhite;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+
+}
+
+.invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+}
+
+.error-text {
+    color: #b40e0e;
+}
+
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+    background-color: #ccc;
+    color: #292929;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
